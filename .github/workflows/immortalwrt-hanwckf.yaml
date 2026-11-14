@@ -46,7 +46,7 @@ jobs:
           df -hT 
           echo "==========================================================="
           cd $MY_WORKSPACE
-          sudo bash -c 'bash <(curl -s https://build-scripts.immortalwrt.eu.org/init_build_environment.sh)'
+          sudo bash -c 'bash <(curl -s https://build-scripts.immortalwrt.org/init_build_environment.sh)'
 
       - name: 拉取源码
         id: clone_repository
