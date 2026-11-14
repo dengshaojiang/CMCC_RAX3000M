@@ -13,7 +13,7 @@ env:
 
 jobs:
   CompileBootloader:
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-22.04
     steps:
       - name: 初始化本项目仓库
         uses: actions/checkout@main
